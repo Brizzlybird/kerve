@@ -1,0 +1,27 @@
+@import '../../theme/variables.scss';
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: $font-family-inter;
+    margin: 0.75rem 1rem;
+}
+
+.logo {
+    font-weight: 700;       
+    color: $color-blue;
+    font-size: $font-size-medium;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        font-size: $font-size-standard;
+        margin: 0 1rem 0 0;
+    }
+}

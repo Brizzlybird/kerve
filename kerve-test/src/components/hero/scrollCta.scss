@@ -1,0 +1,17 @@
+@import '../../theme/variables.scss';
+
+.scroll-cta {
+    font-family: $font-family-playfair;
+    color: $color-white;
+    text-align: center;
+
+    h3 {
+        margin-top: 0;
+        font-weight: 400;
+    }
+
+    p {
+        margin-bottom: 0;
+        font-style: italic;
+    }
+}

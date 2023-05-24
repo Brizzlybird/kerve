@@ -1,0 +1,30 @@
+.hero {
+    background: url("../../assets/hero-landscape.jpg") no-repeat center;
+    height: 92vh;
+    width: auto;
+    margin: 0 1rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    row-gap: 15vh;
+}
+
+@media (max-width: 375px) {
+    .hero {
+        background: url("../../assets/hero-portrait.jpg") no-repeat center top/cover;
+    }
+  }
+
+  @media (min-width:376px) and (max-width: 576px) {
+    .hero {
+        background: url("../../assets/hero-portrait.jpg") no-repeat center top/cover;
+    }
+  }
+  
+  @media (min-width: 577px) and (max-width: 768px) {
+    .hero {
+        background: url("../../assets/hero-portrait.jpg") no-repeat center top/cover;
+    }
+}
